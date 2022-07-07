@@ -5,4 +5,10 @@
 
 void positive_or_negative(int i);
 
-#endif /* MAIN_H */
+/**
+ * largest_number - returns the largest of 3 numbers
+ * @a: first intege
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
+ */
