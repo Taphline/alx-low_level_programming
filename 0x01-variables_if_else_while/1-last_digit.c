@@ -6,7 +6,7 @@
 *
 * Description: A program to determine wether an int is +ve, -ve or 0
 *
-* Return : 0 indicates success
+* Return: 0 indicates success
 */
 
 int main(void)
