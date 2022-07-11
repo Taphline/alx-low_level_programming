@@ -3,17 +3,19 @@
 #include <stdlib.h>
 
 /**
-* _puts -prints a string to stdout
-* @str: input string
+* _puts - prints a string to stdout
+* @str:input string
 *
 * Return: Always 0
 */
 void _puts(char *str)
 {
-	str = (char *)str;
+	int i = 0;
+
+	while (str[i] != '\0')
 	{
-		puts(str);
-		putchar(str);
+		putchar(str[i]);
+		i++;
 	}
 	putchar('\n');
 }
