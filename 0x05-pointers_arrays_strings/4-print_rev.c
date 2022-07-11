@@ -6,7 +6,7 @@
 *@s: string input
 *
 */
-void print _rev(char *s)
+void print_rev(char *s)
 {
 	int i = 0;
 	int length;
