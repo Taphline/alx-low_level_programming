@@ -7,6 +7,7 @@
 * @dest: destination string
 * @src: source to be appended
 * @n: the number to be copied from the string source
+*
 * Return: Always 0
 */
 char *_strncpy(char *dest, char *src, int n)
