@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-*_strcmp -function that compares two strings
+*_strcmp - compares two strings
 *@s1: the destination string
 *@s2: the string to be copied
 *
@@ -10,16 +10,13 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-	if (strcmp(s1, s2) > 0)
-	{
-		return (15);
-	}
-	else if (strcmp(s1, s2) < 0)
-	{
-		return (-15);
-	}
+	int i = 0;
+
+	while (*(s1 + i) == *(s2 + i) && *(s1 + i))
+		i++;
+
+	if (*(s2 + i))
+		return (*(s1 + i) - *(s2 + i));
 	else
-	{
 		return (0);
-	}
 }
