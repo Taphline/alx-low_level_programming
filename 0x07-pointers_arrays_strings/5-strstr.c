@@ -1,13 +1,11 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 
 /*
 *_strstr - function to locate and return pointer
 *@haystack: string to search
 *@needle: substring to search for
 *
-*Return: 0
+*Return: NULL
 */
 char *_strstr(char *haystack, char *needle)
 {
