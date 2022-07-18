@@ -1,17 +1,27 @@
 #include "main.h"
 #include <stdio.h>
-#include <string.h>
+
 /*
-*_strpbrk - compares two string till finds the first alike character
-*@s: the string
-*@accept: the character
-*
-*Return: new string
+*_strpbrk - bytes
+*@s: pointer to character
+*@accept: pointer to character
+*Return: NULL
 */
+
 char *_strpbrk(char *s, char *accept)
 {
-	char *p;
+	int i;
 
-	p = strpbrk(s, accept);
-	return (p);
+	while (*s)
+	{
+		for (i = 0; accept[i]; i++)
+		{
+			if (*s == accept[i])
+			{
+				return (s);
+			}
+		}
+		s++;
+	}
+	return (NULL);
 }
