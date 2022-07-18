@@ -1,11 +1,11 @@
 #include "main.h"
-
+#include <stddef.h>
 /*
 *_strstr - function to locate and return pointer
 *@haystack: string to search
 *@needle: substring to search for
 *
-*Return: NULL
+*Return: Always 0
 */
 char *_strstr(char *haystack, char *needle)
 {
@@ -33,5 +33,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 		i++;
 	}
-	return (NULL);
+	return (0);
 }
