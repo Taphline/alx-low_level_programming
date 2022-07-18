@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
-
 /*
-*_strpbrk -compares two string till finds the first alike character
-*@s: string
-*@accept: character
+*_strpbrk - compares two string till finds the first alike character
+*@s: the string
+*@accept: the character
 *
 *Return: new string
 */
