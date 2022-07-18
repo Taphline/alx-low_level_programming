@@ -3,7 +3,7 @@
 #include <string.h>
 
 /*
-*_strpbrk - searches a string for any of a set of bytes.
+*_strpbrk -compares two string till finds the first alike character
 *@s: string
 *@accept: character
 *
