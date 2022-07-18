@@ -12,10 +12,7 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	char *d;
-
 	_memcpy(dest, src, n);
-	d = (dest);
 
 	return (dest);
 }
