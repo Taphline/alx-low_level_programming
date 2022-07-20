@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *factorial - gets a factorial of a number
 *@n: Integer
@@ -10,7 +9,7 @@ int factorial(int n)
 {
 	if (n < 0)
 	{
-		return (ERROR);
+		return (-1);
 	}
 	else
 	{
