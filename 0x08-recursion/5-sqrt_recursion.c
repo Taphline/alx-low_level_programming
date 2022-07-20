@@ -12,20 +12,20 @@ int _sqrt_recursion(int n)
 		return (1);
 	if (n < 0)
 		return (-1);
-	return (_sqrt_recursion(n, 1));
+	return (getNumSqr(n, 1));
 }
 /**
-*NumSqrt - function taht gets the number of sqroot
+*getNumSqr - function taht gets the number of sqroot
 *@num:Input value
 *@i: Counter variable
 *Return:int
 */
-int NumSqrt(int num, int i)
+int getNumSqr(int num, int i)
 {
 	if (num == (i * i))
 		return (i);
 	else if (num > (i * i))
-		return (NumSqrt(num, i + 1));
+		return (getNumSqr(num, i + 1));
 	else
 		return (-1);
 }
