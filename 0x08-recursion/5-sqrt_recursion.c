@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stddef.h>
 /**
 *getNumSqr - function taht gets the number of sqroot
 *@num:Input value
@@ -19,7 +19,6 @@ int getNumSqr(int num, int i)
 /**
 *_sqrt_recursion - call @ getNumSqr function
 *@n: integer
-*
 *Return: root -1
 */
 int _sqrt_recursion(int n)
