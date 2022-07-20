@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
 *NumSqrt - function taht gets the number of sqroot
 *@num:Input value
 *@i: Counter variable
-*Return: int 
+*Return:int
 */
 int NumSqrt(int num, int i)
 {
